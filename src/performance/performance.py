@@ -12,3 +12,16 @@ def drag_coefficient(cd0, k, cl):
 
 def drag_force(rho, velocity, wing_area, cd):
     return 0.5 * rho * velocity**2 * wing_area * cd
+
+def thrust_required(drag):
+    """
+    In steady level flight:
+    thrust required = drag
+    """
+    return drag
+
+def power_required(drag, velocity):
+    """
+    Power required = drag * velocity
+    """
+    return drag * velocity 
