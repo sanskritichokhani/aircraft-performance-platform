@@ -25,7 +25,7 @@ from src.performance.performance import (
 aircraft = load_aircraft("src/aircraft/b737.json")
 
 rho = 1.225
-weight = aircraft["mass_kg"] * 9.81
+weight = aircraft["mtow_kg"] * 9.81
 wing_area = aircraft["wing_area"]
 
 velocities = np.linspace(50, 300, 300)

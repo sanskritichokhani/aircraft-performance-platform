@@ -1,8 +1,9 @@
 {
     "name": "Boeing 737-800",
-    "mass_kg": 70000,
+    "mtow_kg": 76655,
+    "max_fuel_kg": 21320,
     "wing_area": 124.6,
-    "cd0": 0.02,
-    "k": 0.045,
+    "cd0": 0.0275,
+    "k": 0.055,
     "max_thrust": 242000
 }
