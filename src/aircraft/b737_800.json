@@ -1,0 +1,15 @@
+{
+    "name":              "Boeing 737-800",
+    "mtow_kg":           79016,
+    "oew_kg":            41413,
+    "max_fuel_kg":       21320,
+    "max_payload_kg":    20800,
+    "wing_area_m2":      124.6,
+    "aspect_ratio":      9.45,
+    "oswald_efficiency": 0.82,
+    "cd0":               0.0215,
+    "cl_max":            2.8,
+    "cruise_mach":       0.785,
+    "cruise_altitude_m": 10668,
+    "tsfc_kg_n_s":       1.667e-4
+}
