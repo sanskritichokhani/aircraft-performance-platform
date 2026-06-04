@@ -128,3 +128,15 @@ def payload_range_diagram(
         "ranges_km":   np.array(ranges_km),
         "payloads_kg": np.array(payloads_kg),
     }
+
+def thrust_available_ratio(altitude_m, ref_altitude_m=0):
+    """
+    Simplified turbofan thrust lapse with altitude.
+    Approximates relative thrust available vs sea level.
+    Based on density ratio — real engines follow roughly:
+        T/T_sl ≈ (rho/rho_sl)^0.7  (turbofan approximation)
+    """
+    from src.atmosphere.isa import density
+    rho_sl  = 1.225
+    rho_alt = density(altitude_m)
+    return (rho_alt / rho_sl) ** 0.7
