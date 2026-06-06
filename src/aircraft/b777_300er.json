@@ -1,0 +1,15 @@
+{
+    "name":              "Boeing 777-300ER",
+    "mtow_kg":           351534,
+    "oew_kg":            167829,
+    "max_fuel_kg":       145538,
+    "max_payload_kg":    69870,
+    "wing_area_m2":      427.8,
+    "aspect_ratio":      8.68,
+    "oswald_efficiency": 0.85,
+    "cd0":               0.0175,
+    "cl_max":            2.45,
+    "cruise_mach":       0.840,
+    "cruise_altitude_m": 10668,
+    "tsfc_kg_n_s":       1.528e-4
+}

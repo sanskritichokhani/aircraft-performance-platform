@@ -1,0 +1,15 @@
+{
+    "name":              "Airbus A320neo",
+    "mtow_kg":           79000,
+    "oew_kg":            44300,
+    "max_fuel_kg":       18800,
+    "max_payload_kg":    20000,
+    "wing_area_m2":      122.6,
+    "aspect_ratio":      9.5,
+    "oswald_efficiency": 0.83,
+    "cd0":               0.0200,
+    "cl_max":            2.75,
+    "cruise_mach":       0.780,
+    "cruise_altitude_m": 10668,
+    "tsfc_kg_n_s":       1.528e-4
+}
