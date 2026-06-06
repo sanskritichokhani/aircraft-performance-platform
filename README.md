@@ -102,10 +102,7 @@ aircraft-performance-platform/
 ---
 ## Running Locally
 ```bash
-git clone https://github.com/sanskritichokhani/aircraft-performance-platform.git
-cd aircraft-performance-platform
-pip install -r requirements.txt
-streamlit run app.py
+https://aircraft-performance-platform.streamlit.app/
 ```
 ## Validation
 | Metric | Model | Reference | Error |
