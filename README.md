@@ -2,16 +2,11 @@
 
 A Python-based aerospace engineering platform for aircraft performance modeling,
 mission analysis, and flight operations analytics.
-
-Built over 10 days as a portfolio project by **Sanskriti Chokhani**,
-University of Illinois Urbana-Champaign 
-Grainger College of Engineering
-Aerospace Engineering.
 ---
-## Live Demo
-
-> Run locally with `streamlit run app.py`
-![Dashboard Preview](docs/dashboard_preview.png)
+## Running Locally
+```bash
+https://aircraft-performance-platform.streamlit.app/
+```
 ---
 ## What This Does
 This platform integrates five engineering modules into a unified interactive dashboard:
@@ -100,10 +95,6 @@ aircraft-performance-platform/
 | SciPy | Cruise Mach optimization |
 | Streamlit | Interactive dashboard |
 ---
-## Running Locally
-```bash
-https://aircraft-performance-platform.streamlit.app/
-```
 ## Validation
 | Metric | Model | Reference | Error |
 |--------|-------|-----------|-------|
